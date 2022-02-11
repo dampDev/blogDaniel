@@ -7,3 +7,8 @@ hola
  Experimento 2
  
  master 1
+<<<<<<< HEAD
+=======
+ 
+ master 2
+>>>>>>> master 2
