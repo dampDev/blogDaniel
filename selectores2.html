@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: darkgreen;
+        }
+        div > div {
+            background: plum;
+        }
+        div + section {
+            background: darkred;
+        }
+        div ~ p {
+            color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>TECNOSUR</p>
+        <P>SELECTOR</P>
+        <div>selector hijo</div>
+    </div>
+    <p>selector 1</p>
+    <p>selector 2 </p>
+    <section>selector adyacente</section>
+</body>
+</html>
