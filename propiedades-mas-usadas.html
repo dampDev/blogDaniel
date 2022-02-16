@@ -12,8 +12,9 @@
             justify-content: center;
         }
         .card {
-            width: 300px;
-            height: 300px;
+            
+            width: 230px;
+            height: 320px;
             background: #40E0D0;
             border-radius: 20px;
             overflow: hidden;
@@ -26,9 +27,34 @@
         }
         .card p{
             text-align: center;
+            
         }
         .card p:nth-child(3){
             color: blue;
+        }
+        .social {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+        }
+        .social div {
+            margin: 20px;
+        }
+        .social div img {
+            width: 30px;
+        }
+        .card  img:nth-child(5) {
+            display: flex;
+            align-items: center;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 110px;
+            margin-left: 70px;
+                                      
+            bor            
+
         }
     </style>
 </head>
@@ -36,9 +62,17 @@
     <section>
         <div class="card">
             <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="img-paisaje">
+            
             <p>Daniel Mendez</p>
             <p>TECNOSUR MEXICO</p>
+            <div class="social">
+                <div><img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png" alt="facebook-logo"></div>
+                <div><img src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" alt="twitter-logo"></div>
+                <div><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo"></div>
+            </div>
+            
         </div>
+        
     </section>
 </body>
 </html>
